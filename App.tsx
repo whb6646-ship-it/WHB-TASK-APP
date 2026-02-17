@@ -1,12 +1,12 @@
 
 import React, { useState } from 'react';
 import { AppSection, Task, Note, Category, Priority, Event, Theme } from './types';
-import Dashboard from './components/Dashboard';
-import Notes from './components/Notes';
-import Calendar from './components/Calendar';
-import FocusTimer from './components/FocusTimer';
-import Settings from './components/Settings';
-import BottomNav from './components/BottomNav';
+import Dashboard from './components/Dashboard.tsx';
+import Notes from './components/Notes.tsx';
+import Calendar from './components/Calendar.tsx';
+import FocusTimer from './components/FocusTimer.tsx';
+import Settings from './components/Settings.tsx';
+import BottomNav from './components/BottomNav.tsx';
 
 const INITIAL_CATEGORIES: Category[] = [
   { id: 'cat-1', name: 'Work', color: '#8B5CF6', icon: '💼' },
