@@ -1,0 +1,7 @@
+{
+  "name": "ZenDo - Modern Task Organizer",
+  "description": "A sleek, mobile-optimized To-Do List and Notes organizer with a minimalist aesthetic and powerful dashboard.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
